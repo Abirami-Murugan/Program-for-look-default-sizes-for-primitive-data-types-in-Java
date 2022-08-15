@@ -1,0 +1,41 @@
+package learning2;
+
+public class DataTypeDemo {
+	static int i;
+	static byte b;
+	static short s;
+	static long l;
+	static boolean B;
+	static char c;
+	static String S;
+	static double d;
+	static float f;
+	
+	
+	public static void main(String[] args) {
+		
+		
+		System.out.println("integerDefault="+i);
+		System.out.println("byte="+b);
+		System.out.println("short= "+s);
+		System.out.println("long="+ l);
+		System.out.println("boolean= " + B);
+		System.out.println("char= " + c);
+		System.out.println("String="+S);
+		System.out.println("double= " + d);
+		System.out.println("float= "+ f);
+		
+		
+
+	}
+
+}
+
+
+Output:
+integerDefault=0
+byte=0
+short= 0
+long=0
+boolean= false
+char= 
