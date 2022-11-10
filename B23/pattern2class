@@ -1,0 +1,72 @@
+1)private void pattern_9() {
+		// TODO Auto-generated method stub
+		for (int row = 1; row <= 5; row++) 
+		{
+			for (int col = 1; col <= row; col++) {
+				System.out.print(col + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+
+2)private void pattern_9() {
+		// TODO Auto-generated method stub
+		for (int row = 1; row <= 5; row++) 
+		{
+			for (int col = 1; col < row; col++) {
+				System.out.print(col + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+
+3)private void pattern_10() {
+		// TODO Auto-generated method stub
+		
+			// TODO Auto-generated method stub
+			for (int row = 1; row <= 5; row++) 
+			{
+				for (int col = 1; col < row; col++)
+				{
+					System.out.print(" " + " ");
+				}
+				for(int col=5; col>=row; col--)
+				{	System.out.print("* ");	}
+				System.out.println();
+			}
+		
+	}
+
+4)
+private void pattern_11() {
+		for(int row=1; row<=5; row++)
+		{
+			for(int star=4; star>=row; star--)
+		{
+		System.out.print("* ");
+		}
+			for(int no=5; no>=6-row; no--)
+			{
+			System.out.print(no+" "); 
+			}
+
+
+		System.out.println(); 
+		}
+				
+	}
+
+5)
+for(char ch='A'; ch<='E'; ch++)
+	{
+		for(char c='A'; c<=ch;c++)
+		{
+			System.out.print(c);
+		}
+	System.out.println();
+	}
+
